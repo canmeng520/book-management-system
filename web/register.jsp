@@ -25,7 +25,7 @@
             $("#btn_register").click(function () {
                 $.ajax({
                     type:"post",//请求方式
-                    url:"/register",//请求传输的位置
+                    url:"/book_management/register",//请求传输的位置
                     data:{"username":$("#username").val(),
                         "userid":$("#userid").val(),
                         "password":$("#password").val(),

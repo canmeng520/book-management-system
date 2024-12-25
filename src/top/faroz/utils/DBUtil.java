@@ -12,10 +12,10 @@ import java.sql.SQLException;
  * @Version 1.0
  **/
 public class DBUtil {
-    private static final String url="jdbc:mysql:///book_management_db?useUnicode=true&characterEncoding=utf8";
-    // private static final String url="jdbc:mysql:///book_management_db";
-    private static final String name="admin";
-    private static final String password="123";
+
+    private static final String url="jdbc:mysql://175.178.164.150:3306/book_management_db?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai";
+    private static final String name="root";
+    private static final String password="feizhou@123";
 
     /**
      * 静态代码块
